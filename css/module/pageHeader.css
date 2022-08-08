@@ -1,0 +1,57 @@
+.page-header{
+    background-image: url("../../imgs/carousel-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:40vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color:white;
+}
+
+.page-header .overlay{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.page-header .page-name{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size:3.2rem;
+    margin-bottom:25px;
+}
+
+.page-header .sub-nav .nav-links {display: -webkit-box;display: -ms-flexbox;display: flex}
+
+.page-header .sub-nav .link-1::before,
+.page-header .sub-nav .link-2::before{
+    padding:0 5px;
+    content:"/";
+    color:rgb(156, 156, 156)
+}
+
+.page-header .sub-nav .nav-link a{color:white}
+
+.page-header .sub-nav .nav-link.current-page a{color:#FDA12B}

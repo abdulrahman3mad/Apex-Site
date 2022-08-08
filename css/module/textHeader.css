@@ -1,0 +1,27 @@
+.text-header{
+    position: relative;
+    padding-left: 30px;
+}
+
+.text-header::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    background-color: #fda12b;
+    width: 4.5px;
+    height: 100%;
+}
+
+.text-header p{
+    font-family: Poppins;
+    font-weight: 600;
+    color:#8D9297
+}
+
+.text-header h2{font-size:2rem; font-family:Poppins; line-height: 1.2; font-weight: 700;}
+
+.text-header-seperated{margin-bottom: 40px}
+
+.text-header-black{color:black}
+
+

@@ -1,0 +1,35 @@
+.p-input-bar{
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+.p-input-bar input, .p-input-bar textarea{
+    font-family: Roboto;
+    font-family: 400;
+    font-size:1rem;
+    width: 100%;
+    padding:18px;
+    outline: none;
+    border:0;
+    color:white;
+}
+
+.p-input-bar textarea{height:100px}
+
+.p-input-bar-dark input, .p-input-bar-dark textarea{
+    background-color: #182333;
+    color:white;    
+}
+
+.p-input-bar-light input, .p-input-bar-light textarea{
+    background-color:#F8F9FA;
+    color:rgb(107, 107, 107)
+}
+
+.input-hov input:focus{-webkit-box-shadow: 0px 0px 0px 4px rgb(253, 161, 43, 0.25);box-shadow: 0px 0px 0px 4px rgb(253, 161, 43, 0.25)}
+
+textarea{max-width: 100%}
+
+@media screen and (max-width:576px) {
+    .p-input-bar{padding-right: 0}    
+}

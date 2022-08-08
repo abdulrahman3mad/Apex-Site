@@ -1,0 +1,96 @@
+.overlay-parent{position: relative}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay-none{display: none}
+
+
+.overlay-box .img-container{position: relative}
+
+.overlayed-img{
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    padding:3vw;
+}
+
+@media screen and (max-width:576px){
+    .overlayed-img {
+        min-height:500px;
+    }
+}
+
+.overlay-box .box{
+    position: absolute;
+    z-index: 1;
+    background-color: #FDA12B;
+    top:0;
+    left:0%;
+    padding:2vw 2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color:white;
+}
+
+
+.overlay-box .box p{
+    font-size:2.25rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.overlay-box .box p:last-child{font-size:1.25rem}
+
+
+.overlay-rec-parent:hover .overlay-rec{width: 100%}
+
+.overlay-rec{
+    position: absolute;
+    top: 70%;
+    left:0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding:0 20px
+}
+
+
+.overlay-rec h5{
+    font-size:1.25rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.overlay-rec p{color:rgb(152, 152, 152)}

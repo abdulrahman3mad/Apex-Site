@@ -1,0 +1,199 @@
+/*--Start General Footer Style--*/
+.l-footer{background-color: #182333}
+
+.l-footer .content > p{color:#999999}
+/*--End General Footer Style--*/
+
+/*--Start Main Footer Style--*/
+.l-footer .sec-header p{
+    font-size:1.5rem;
+    color:white;
+}
+
+.l-footer .main-footer{
+    padding:70px 0;
+    margin:0 10px;
+    border-bottom: 1px solid rgb(216, 216, 216, 0.2);
+}
+
+.l-footer .main-footer .content{
+    margin-bottom: 40px;
+    padding-right: 30px;
+}
+
+.l-footer .main-footer .sec-header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.l-footer .main-footer .sec-header .logo-icon {
+    color:#FDA12B;
+    margin-right: 20px;
+    font-size:2.5rem;
+}
+
+.l-footer .main-footer .sec-header .logo-text{
+    font-size:2.5rem;
+    color:white;
+}
+
+.l-footer .main-footer .site-desc{margin-bottom: 20px}
+
+.l-footer .main-footer .content > .s-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+
+.l-footer .main-footer .content > .s-list a{
+    margin-right: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 35px;
+    height: 35px;
+    border:1px solid #FDA12B;
+    color:#FDA12B;
+    -webkit-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+
+.l-footer .main-footer .content > .s-list a:hover{
+    background-color: #FDA12B;
+    color:white;
+}
+
+.l-footer .content .list li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color:#999999;
+    padding-bottom: 15px;
+}
+
+.l-footer .content .list li p{
+    padding-left:15px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.l-footer .content .list li:hover a p{
+    font-size:1.05rem;
+    color:white;
+}
+
+.l-footer .list li a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color:#999;
+}
+
+.l-footer .list li a p{padding-left: 20px}
+
+
+.l-footer .sec-body p{
+    color:#999;
+    margin-bottom: 10px;
+}
+
+.l-footer .sec-body .input-container{
+    position: relative;
+    width: 100%;
+    border:1px solid rgb(211, 211, 211);
+    background-color: transparent;
+}
+
+.l-footer .sec-body input[type="text"]{
+    padding:18px;
+    font-size:1rem;
+    background-color: transparent;
+    outline: none;
+    border:0;
+    color:white;
+    width:100%;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.l-footer .sec-body input[type="submit"]{
+    position: absolute;
+    z-index: 1;
+    left:100%;
+    top:50%;
+    -webkit-transform: translate(-105%, -50%);
+        -ms-transform: translate(-105%, -50%);
+            transform: translate(-105%, -50%);
+    background-color: #FDA12B;
+    color:white;
+    padding:12px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    border:none;
+}
+
+.l-footer .sec-body input[type="text"]:focus{
+    -webkit-box-shadow: 0px 0px 0px 4px rgb(253, 161, 43, 0.25);
+            box-shadow: 0px 0px 0px 4px rgb(253, 161, 43, 0.25);
+}
+
+.l-footer .sec-body input[type="submit"]:hover{
+    background-color: #ffad41;
+}
+/*--End Main Footer Style--*/
+
+/*--Start Sub Footer Style--*/
+.l-footer .sub-footer .row{-webkit-box-align: center;-ms-flex-align: center;align-items: center}
+
+.l-footer a{color:white}
+
+.l-footer a:hover{color:#ffad41}
+
+.l-footer .sub-footer .development-team{
+    padding:25px 0;
+    text-align: right;
+}
+
+
+@media screen and (max-width:768px) {
+    .l-footer .sub-footer .row,
+    .l-footer .sub-footer .development-team{
+        text-align: center;
+    }
+
+    .l-footer .sub-footer{padding:30px 0}
+}
+/*--End Sub Footer Style--*/

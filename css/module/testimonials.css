@@ -1,0 +1,89 @@
+.testimonial{padding:50px 0}
+
+.testimonial .row{-webkit-box-align: center;-ms-flex-align: center;align-items: center}
+
+.testimonial .test-header{margin-bottom: 20px}
+
+.testimonial .test-header i{color:#FDA12B}
+
+.testimonial .text-header{margin-bottom: 30px}
+
+.testimonial .list{margin-top: 40px}
+
+.testimonial p{color:rgb(151, 151, 151)}
+
+.testimonial .item > p{
+    color:black;
+    font-family: Poppins;
+    font-family: 600;
+    font-size:1.25rem;
+}
+
+.testimonial .item .item-head{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.testimonial .item .item-head p{
+    margin-left: 10px;
+    font-size: 2.5rem;
+    font-family: Poppins;
+    font-weight: 600;
+    color:black;
+}
+
+
+.testimonial .client img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.testimonial .client .client-words > p{
+    font-size: 1.25rem;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.testimonial .client .client-words > p::after{
+    content:"";
+    position: absolute;
+    background-color: #FDA12B;
+    width: 60px;
+    height:5px;
+    left:0;
+    bottom: 0;
+}
+
+.testimonial .client-data{padding-top: 10px}
+
+.testimonial .client-data .client-name{
+    font-size: 1.25rem;
+    color:black;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.testimonial .scroll-arr{
+    margin:20px 5px 0 0;
+    display:inline-block;
+    text-align: center;
+    padding:10px;
+    color:black;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    border:1px solid #FDA12B;
+    cursor: pointer;    
+    -webkit-transition: all 0.5s;    
+    -o-transition: all 0.5s;    
+    transition: all 0.5s;
+}
+
+.testimonial .scroll-arr:hover{
+    background-color: #FDA12B;
+    color:white;
+}

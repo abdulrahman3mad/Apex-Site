@@ -1,0 +1,17 @@
+.rec-prim-btn{
+    padding:1.1rem 2.2rem;
+    border:none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: 500;
+    background-color: #fda12b;
+    color:white;
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.rec-prim-btn:hover{
+    background-color: #FDAF4B
+}

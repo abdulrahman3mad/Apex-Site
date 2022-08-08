@@ -1,0 +1,100 @@
+.hero-sec .bk-img{
+    background-image: url("../../imgs/carousel-1.jpg");
+    background-size: cover;
+    height:70vh;
+}
+
+.hero-sec .overlay{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    color:white;
+    font-family: Poppins;
+    font-weight: 600;   
+}
+
+.hero-sec .overlay p, 
+.hero-sec .overlay ul{
+    font-size:1.25rem;
+}
+
+.hero-sec .overlay h2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size:3.1rem;
+    margin:15px 0;
+    line-height: 1.2;
+    padding:10px 0;
+}
+
+.hero-sec .overlay ul{
+    font-family: Roboto;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.hero-sec .bul-point{
+    color:#fda12b;
+    margin:0 10px;
+}
+
+.hero-sec .arrow-btns .arrow-container{
+    position: absolute;
+    height: 100%;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.hero-sec .arrow-btns .l-arrow-cont{left: 0}
+
+.hero-sec .arrow-btns .r-arrow-cont{right:0}
+
+.hero-sec .arrow-btns .scroll-arr{
+    background-color:#222B36;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    padding:10px;
+    color:#7b7b7b;
+    text-align: center;
+    font-size:30px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.hero-sec .arrow-btns .scroll-arr{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+.hero-sec .arrow-btns .arrow-container:hover .scroll-arr{
+    opacity: 1;
+    color:white;
+}
+
+.hero-sec .arrow-btns div .scroll-arr{
+    position: absolute;
+    top: 50%;
+}
+
+.hero-sec .arrow-btns div .scroll-l-arr{left:50%}
+
+.hero-sec .arrow-btns div .scroll-r-arr{right:50%}

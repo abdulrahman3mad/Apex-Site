@@ -1,0 +1,26 @@
+.ex-worker{padding:50px 0 0}
+
+.ex-worker .text-header{margin-bottom: 40px}
+
+.ex-worker p{color:rgb(164, 164, 164)}
+
+.ex-worker .row{-webkit-box-align: center;-ms-flex-align: center;align-items: center}
+
+.ex-worker img{
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.workers{padding:50px 0}
+
+.worker{
+    height: 410px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .worker{margin-right: 20px}
+}

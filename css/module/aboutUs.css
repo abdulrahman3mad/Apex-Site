@@ -1,0 +1,56 @@
+.about-us {
+    padding:50px 0;
+}
+
+.about-us .col-6{
+    padding:0 20px;
+}
+
+.about-us .text-box{
+    margin-top:10px
+}
+
+.about-us .text-box .text-body > p{
+    color:#8d9297;
+    padding:12px 0
+}
+
+.about-us .text-box .text-body > p:last-of-type{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    padding:20px 0
+} 
+
+
+.about-us .text-body ul{
+    padding-top: 20px;
+}
+
+.about-us .text-body ul .mark-icon{
+    color:#FDA12B;
+    font-size: 1.1rem;
+}
+
+.about-us .text-body ul li {
+    font-family: Poppins;
+    font-weight: 600;
+    padding:0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;   
+}
+
+.about-us .text-body ul li p{
+    padding-left:20px;
+}
+
+@media screen and (max-width:576px){
+    .about-us .text-body ul li{
+        padding:0;
+    }
+}
+
+
+

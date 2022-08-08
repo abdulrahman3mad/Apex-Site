@@ -1,0 +1,19 @@
+.our-services {padding: 50px 0}
+
+.our-services .sec-body {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.our-services .down-card {
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.our-services .btn-container {text-align: right}
+
+@media screen and (max-width:992px) {
+    .our-services .text-header {margin-bottom: 40px}
+
+    .our-services .btn-container {text-align: left}
+}

@@ -1,0 +1,63 @@
+/*
+    main-color: #182333
+    secondary-color: #FDAF4B
+
+*/
+body{
+    font-family:Roboto;
+    font-weight: 400;
+}
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 85%;
+    margin:0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: Roboto; 
+    src: url("../../fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../../fonts/Roboto/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: Poppins;
+    src: url("../../fonts/Poppins/Poppins-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../../fonts/Poppins/Poppins-Bold.ttf");
+    font-weight: 700;
+}

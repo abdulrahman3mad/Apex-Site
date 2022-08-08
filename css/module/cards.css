@@ -1,0 +1,114 @@
+/*--Start Down-Card Style--*/
+.down-card .item-body{
+    background-color: rgb(241, 241, 241, 0.5);
+    padding:20px;
+    position: relative;
+    z-index: 0;
+}
+
+.down-card .item-body .overlay{
+    top:1;
+    height: 0%;
+    -webkit-transition-property: opacity, height;
+    -o-transition-property: opacity, height;
+    transition-property: opacity, height;
+    -webkit-transition-duration: 0.4s, 0.3s;
+         -o-transition-duration: 0.4s, 0.3s;
+            transition-duration: 0.4s, 0.3s;
+    opacity: 0;
+    z-index: -1;
+    background-color: #FDA12B;
+}
+
+.down-card:hover .item-body .overlay{height: 100%; opacity: 1}
+
+.down-card .item-body h4{
+    font-family: Poppins;
+    font-weight: 600; 
+    font-size: 1.25rem;
+    padding-bottom:10px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.down-card .item-body p{
+    color:rgba(152, 152, 152, 0.9);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.down-card .item-body a{
+    color:#FCA73B;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+.down-card:hover .item-body h4,
+.down-card:hover .item-body p,
+.down-card:hover .item-body a{
+    color:white;
+}
+
+.down-card .item-body .read-text{
+    margin:10px 0;
+}
+
+@media screen and (max-width:576px) {
+    .down-card{
+        padding-right: 0 !important;
+    }    
+}
+/*--End Down-Card Style--*/
+
+/*--Start St-Card Style--*/
+.st-card{
+    margin-bottom: 40px;
+}
+
+.st-card .row{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.st-card .hero{
+    height:280px;
+    overflow: hidden;
+    padding:0 20px;
+}
+
+.st-card .hero-details h3{
+    font-size: 1.75rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.st-card .hero-contact-details{color:#8D9297}
+
+.st-card .hero-contact-details h4{
+    margin-top:12px;
+    font-size:1rem;
+    font-family: Poppins;
+    font-weight: 600;
+    color:black;
+}
+
+.st-card .hero-contact-details div {margin-top:10px}
+
+.st-card img{
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 400px;
+}
+
+@media screen and (max-width:575px){
+    .st-card .hero{
+        padding:0;
+        margin-bottom: 20px;
+    }
+}
+/*--End St-Card Style--*/
