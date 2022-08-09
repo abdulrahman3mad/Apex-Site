@@ -1,0 +1,11 @@
+.s-list{display: flex;}
+
+.s-row-list{display: -webkit-box;display: -ms-flexbox;display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.s-col-list{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column}
+
+.s-list-center{-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;}
+
+.s-list-space-b{-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between}
+
+.s-list-space-a{-ms-flex-pack: distribute;justify-content: space-around}
